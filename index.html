@@ -1,0 +1,19 @@
+---
+
+layout:     default
+title:      Dzīve. Tehnoloģijas. Izklaide.
+type:       home
+navigation: true
+
+date:       2015-01-03
+image:      header-5.jpg
+excerpt:    Trīs lietas, par kurām man reizēm patīk iedrukāt kādā interneta resursā, ja ir pareizais noskaņojums un pareizais temats. <a href="/about.html" title="Continue" class="more">Continue</a>
+gradient:   1
+
+---
+
+{% for post in paginator.posts %}
+
+  {% include summary.html %}
+
+{% endfor %}
